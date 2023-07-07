@@ -2,13 +2,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/fondo">
 
-    <TextView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:id="@+id/tv1"
-        android:background="@drawable/logo"
+    <ImageButton
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:id="@+id/btnconectar"
+        android:background="@drawable/blue"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="195dp"
+        android:layout_marginTop="220dp"
         android:layout_marginStart="100dp"
         />
 
@@ -16,13 +16,14 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:id="@+id/tv2"
-        android:layout_below="@+id/tv1"
-        android:text="I N I C I A N D O"
-        android:textSize="55dp"
+        android:layout_below="@+id/btnconectar"
+        android:text="Presiona para Conectar"
+        android:textSize="25dp"
         android:layout_marginTop="20dp"
         android:textColor="@color/beige"
         android:fontFamily="@font/bebas"
         android:layout_centerInParent="true"
         />
+
 
 </RelativeLayout>
